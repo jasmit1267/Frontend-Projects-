@@ -1,2 +1,1 @@
-# Frontend-Projects-
-Frontend Projects
+Frontend Project made using HTML, CSS and JS
