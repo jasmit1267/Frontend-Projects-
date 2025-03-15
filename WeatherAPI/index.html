@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter your location" class="input-box">
+                <button><img src="icon/search.png" id="searchBtn">
+                </button>
+            </div>
+
+            <div class="range-not-found">
+                <h1>Sorry, Location not found</h1>
+                <img src="icon/error.png" alt="404 Error" width="150px">
+            </div>
+        </div>
+        <div class="weather-body">
+            <img src="icon/cloudy.png" class="weather-img" width="250px">
+            <div class="weather-box">
+                <p class="temperature">0 <sup>°C</sup></p>
+                <p class="description">light rain</p>
+            </div>
+
+            <div class="weather-details">
+                <div class="humidity">
+                    <img src="icon/humidity.png" width="80px">
+                    <div class="text">
+                        <span id="humidity">45%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+
+                <div class="wind">
+                    <img src="icon/wind.png">
+                    <div class="text">
+                        <span id="wind">15km/H
+                        </span>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
