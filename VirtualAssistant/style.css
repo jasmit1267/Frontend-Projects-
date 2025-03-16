@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color:black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#logo{
+    width: 25vw;
+    margin: 50px;
+    padding: 20px;
+}
+h1{
+    color: aliceblue;
+    font-family: "Libre Franklin", sans-serif;
+    margin-bottom: 30px;
+}
+/* #name{
+    color: rgb(95, 95, 233);
+    font-size: larger;
+}
+#via{
+    color: rgb(234, 183, 16);
+    font-size: larger;
+    padding: 100px;
+} */
+#vigi{
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+
+#btn{
+    width: 500px;
+    background:linear-gradient(to right,rgb(42, 42, 240),rgb(227, 203, 21));
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: white;
+    box-shadow:  3px 3px 15px ;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#btn:hover{
+    box-shadow:  3px 3px 15px ;
+    letter-spacing: 3px;
+}
